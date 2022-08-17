@@ -5,7 +5,7 @@
     "docker-compose.yml"
   ],
   "service": "jupyter",
-  "workspaceFolder": "utkusarioglu-com/templates/conda-music-repo-template",
+  "workspaceFolder": "/utkusarioglu-com/templates/conda-music-repo-template",
   "settings": {
     "workbench.colorCustomizations": {
       "activityBar.background": "#002244"

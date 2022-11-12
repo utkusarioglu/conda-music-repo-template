@@ -4,18 +4,16 @@
     "../.docker/docker-compose.dev.yml",
     "docker-compose.yml"
   ],
-  "service": "jupyter",
+  "service": "conda-music-repo-template",
   "workspaceFolder": "/utkusarioglu-com/templates/conda-music-repo-template",
   "settings": {
     "workbench.colorCustomizations": {
-      "activityBar.background": "#002244"
+      "activityBar.background": "#FF0000",
+      "activityBar.foreground": "#000000"
     }
   },
   "extensions": [
     "ms-python.python",
     "ms-toolsai.jupyter"
-  ],
-  "features": {
-    "github-cli": "latest"
-  }
+  ]
 }

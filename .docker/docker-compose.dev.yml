@@ -1,7 +1,9 @@
 version: "3.9"
 
 services:
-  jupyter:
-    image: utkusarioglu/conda-music-devcontainer:1.0.3
+  conda-music-repo-template:
+    image: utkusarioglu/conda-music-devcontainer:1.0.8
     volumes:
-      - ..:/utkusarioglu-com/templates/conda-music-repo-template
+      - type: bind
+        source: ..
+        target: /utkusarioglu-com/templates/conda-music-repo-template

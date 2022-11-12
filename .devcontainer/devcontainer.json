@@ -15,5 +15,6 @@
   "extensions": [
     "ms-python.python",
     "ms-toolsai.jupyter"
-  ]
+  ],
+  "postCreateCommand": "scripts/post-create-command.sh"
 }
